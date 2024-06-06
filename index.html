@@ -21,7 +21,7 @@
   <link href="./assets/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="./assets/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="./assets/animate.min.css" rel="stylesheet">
   <link href="./assets/ionicons.min.css" rel="stylesheet">
   <link href="./assets/owl.carousel.min.css" rel="stylesheet">
@@ -102,6 +102,11 @@ body {
       color: #000;
     }
 
+    .img-fluid {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     @media (min-width: 640px) {
 
       .content-t,
@@ -163,17 +168,14 @@ body {
   ============================-->
   <section id="intro">
     <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
         <ol class="carousel-indicators">
-          <li data-target="#introCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#introCarousel" data-slide-to="1"></li>
-          <li data-target="#introCarousel" data-slide-to="2"></li>
+
         </ol>
 
         <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active">
+          <div class="carousel-item active" style="background-image: url(assets/hero/slide1.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2> what is PT NUSACHEM ENERGI TANGGUH ?</h2>
@@ -189,7 +191,7 @@ body {
             </div>
           </div>
 
-          <div class="carousel-item">
+          <div class="carousel-item" style="background-image: url(assets/hero/slide2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2> Who is our client ?</h2>
@@ -203,7 +205,7 @@ body {
             </div>
           </div>
 
-          <div class="carousel-item">
+          <div class="carousel-item" style="background-image: url(assets/hero/slide3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Our Commitment</h2>
@@ -324,18 +326,12 @@ body {
             style="position: absolute; left: 0px; top: 0px; visibility: visible; animation-name: fadeInUp;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/APARTEMEN.jpeg" class="img-fluid" alt="">
-                <a href="./assets/APARTEMEN.jpeg" data-lightbox="portfolio"
-                  data-title="Manajemen Jaringan Internet Skyland City Jatinangor - 2023" class="link-preview"
+                <img src="./assets/portfolio/BOLT 2.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/BOLT 2.jpg" data-lightbox="portfolio" data-title="" class="link-preview"
                   title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
-
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Proyek Apartemen 1</a></h4> -->
-                <p style="color: black;">Manajemen Jaringan Internet Skyland City Jatinangor - 2023</p>
-              </div>
             </div>
           </div>
 
@@ -343,18 +339,12 @@ body {
             style="position: absolute; left: 380px; top: 0px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/APARTEMEN 2.jpeg" class="img-fluid" alt="">
-                <a href="./assets/APARTEMEN 2.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Manajemen Jaringan Internet Skyland City Jatinangor - 2023" title="Preview"><i
-                    class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/BOLT AND NUT.jpeg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/BOLT AND NUT.jpeg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
-
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Proyek Apartemen 2</a></h4> -->
-                <p style="color: black;">Manajemen Jaringan Internet Skyland City Jatinangor - 2023</p>
-              </div>
             </div>
           </div>
 
@@ -362,17 +352,14 @@ body {
             style="position: absolute; left: 760px; top: 0px; visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/BANK PANIN.jpeg" class="img-fluid" alt="">
-                <a href="./assets/BANK PANIN.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Kabel FO Bank Panin - 2024" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/BOLT.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/BOLT.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
 
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">App 2</a></h4> -->
-                <p style="color: black;">Instalasi Kabel FO Bank Panin - 2024</p>
-              </div>
+
             </div>
           </div>
 
@@ -380,17 +367,14 @@ body {
             style="position: absolute; left: 0px; top: 360px; visibility: hidden; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/BANK PANIN 2.jpeg" class="img-fluid" alt="">
-                <a href="./assets/BANK PANIN 2.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Kabel FO Bank Panin - 2024" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/CAUSTIC SODA ASAHI.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/CAUSTIC SODA ASAHI.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
 
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Card 2</a></h4> -->
-                <p style="color: black;">Instalasi Kabel FO Bank Panin - 2024</p>
-              </div>
+
             </div>
           </div>
 
@@ -398,17 +382,12 @@ body {
             style="position: absolute; left: 380px; top: 360px; visibility: hidden; animation-delay: 0.1s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/PANIN.jpeg" class="img-fluid" alt="">
-                <a href="./assets/PANIN.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Kabel FO Bank Index - 2024" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/CHAIN BLOCK POWERTAC.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/CHAIN BLOCK POWERTAC.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
-
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Web 2</a></h4> -->
-                <p style="color: black;">Instalasi Kabel FO Bank Index - 2024</p>
-              </div>
             </div>
           </div>
 
@@ -416,17 +395,14 @@ body {
             style="position: absolute; left: 760px; top: 360px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/PANIN 2.jpeg" class="img-fluid" alt="">
-                <a href="./assets/PANIN 2.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Kabel FO Bank Index - 2024" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/CHAIN BLOCK.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/CHAIN BLOCK.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
 
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">App 3</a></h4> -->
-                <p style="color: black;">Instalasi Kabel FO Bank Index - 2024</p>
-              </div>
+
             </div>
           </div>
 
@@ -434,18 +410,14 @@ body {
             style="position: absolute; left: 0px; top: 720px; visibility: hidden; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/PROTONINO.jpeg" class="img-fluid" alt="">
-                <a href="./assets/PROTONINO.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Jaringan Local Area Network (LAN) PT. Protonindo Citra - 2024"
-                  title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/COUPLER SANDBLASTING CLEMCO.jpeg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/COUPLER SANDBLASTING CLEMCO.jpeg" class="link-preview"
+                  data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
 
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Card 1</a></h4> -->
-                <p style="color: black; ">Instalasi Jaringan Local Area Network PT. Protonindo Citra - 2024</p>
-              </div>
+
             </div>
           </div>
 
@@ -453,18 +425,14 @@ body {
             style="position: absolute; left: 380px; top: 720px; visibility: hidden; animation-delay: 0.1s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/PROTONINDO 2.jpeg" class="img-fluid" alt="">
-                <a href="./assets/PROTONINDO 2.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Jaringan Local Area Network (LAN) PT. Protonindo Citra - 2024"
+                <img src="./assets/portfolio/FITTING 1.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FITTING 1.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
                   title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
 
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Card 3</a></h4> -->
-                <p style="color: black;">Instalasi Jaringan Local Area Network PT. Protonindo Citra - 2024</p>
-              </div>
+
             </div>
           </div>
 
@@ -472,75 +440,207 @@ body {
             style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/rge.jpeg" class="img-fluid" alt="">
-                <a href="./assets/rge.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Sambungan Silang (LAN) RGE Group - 2024" title="Preview"><i
-                    class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/FITTING 2.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FITTING 2.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
-
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Web 1</a></h4> -->
-                <p style="color: black;">Instalasi Sambungan Silang (LAN) RGE Group - 2024</p>
-              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 0px; top: 1080px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/rge 2.jpeg" class="img-fluid" alt="">
-                <a href="./assets/rge 2.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi Sambungan Silang (LAN) RGE Group - 2024" title="Preview"><i
-                    class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/FITTING 3.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FITTING 3.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
-
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Web 1</a></h4> -->
-                <p style="color: black;">Instalasi Sambungan Silang (LAN) RGE Group - 2024</p>
-              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rs wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 380px; top: 1080px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/RS.jpeg" class="img-fluid" alt="">
-                <a href="./assets/RS.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi PABX RS Dustira Angkatan Darat Cimahi - 2023" title="Preview"><i
-                    class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/FITTING.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FITTING.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
-
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Web 1</a></h4> -->
-                <p style="color: black;">Instalasi PABX RS Dustira Angkatan Darat Cimahi - 2023</p>
-              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rs wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 1080px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/RS 2.jpeg" class="img-fluid" alt="">
-                <a href="./assets/RS 2.jpeg" class="link-preview" data-lightbox="portfolio"
-                  data-title="Instalasi PABX RS Dustira Angkatan Darat Cimahi - 2023" title="Preview"><i
-                    class="ion ion-eye"></i></a>
+                <img src="./assets/portfolio/FLANGE 1.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FLANGE 1.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
                     class="ion ion-android-open"></i></a>
               </figure>
+            </div>
+          </div>
 
-              <div class="portfolio-info">
-                <!-- <h4><a href="#">Web 1</a></h4> -->
-                <p style="color: black;">Instalasi PABX RS Dustira Angkatan Darat Cimahi - 2023</p>
-              </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/FLANGE 2.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FLANGE 2.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/FLANGE 3.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FLANGE 3.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/FLANGE 4.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FLANGE 4.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/FLANGE 5.png" class="img-fluid" alt="">
+                <a href="./assets/portfolio/FLANGE 5.png" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/GARNET MESH.jpeg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/GARNET MESH.jpeg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/H2SO4.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/H2SO4.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/HAND GLOVE.jpeg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/HAND GLOVE.jpeg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/HASKEL PUMP AGD.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/HASKEL PUMP AGD.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/HOSE MONDEA 150PSI.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/HOSE MONDEA 150PSI.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/HOSE MONDEA.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/HOSE MONDEA.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/LOADING H2SO4 DAN TCCA.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/LOADING H2SO4 DAN TCCA.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
+            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./assets/portfolio/MOTOROLA HAND TALKY.jpg" class="img-fluid" alt="">
+                <a href="./assets/portfolio/MOTOROLA HAND TALKY.jpg" class="link-preview" data-lightbox="portfolio"
+                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="nusachemenergitangguh.co.id/#" class="link-details" title="More Details"><i
+                    class="ion ion-android-open"></i></a>
+              </figure>
             </div>
           </div>
 
@@ -672,14 +772,6 @@ body {
             </div>
 
           </div>
-
-          <!-- <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
-            </form>
-          </div> -->
 
         </div>
       </div>
