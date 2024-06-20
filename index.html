@@ -126,12 +126,6 @@ body {
     }
   </style>
 
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
   <script type="text/javascript">
     window.hasMobileFirstExtension = true;</script>
 </head>
@@ -141,7 +135,7 @@ body {
   <!--==========================
     Header
   ============================-->
-  <header id="header" class="header-scrolled">
+  <header id="header">
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
@@ -152,9 +146,15 @@ body {
       </div>
 
       <nav id="nav-menu-container">
-        <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+        <ul class="nav-menu">
           <li class=""><a href="./#intro">Home</a></li>
-          <li class="menu-active menu-item-active"><a href="./#about">About Us</a>
+          <li><a href="./#about">About Us</a></li>
+          <li class="menu-has-children"><a href="#">Products</a>
+            <ul>
+              <li><a href="./chemical.html">Chemical</a></li>
+              <li><a href="./pipping-material.html">Pipping Material</a></li>
+              <li><a href="./safety-tools.html">Safety Tools</a></li>
+            </ul>
           </li>
           <li><a href="./#portfolio">Portfolio</a></li>
           <li><a href="./#contact">Contact Us</a></li>
@@ -259,7 +259,6 @@ body {
         </header>
 
         <div class="row about-cols">
-
           <div class="col-md-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="about-col">
               <div class="img">
@@ -289,12 +288,7 @@ body {
 
             </div>
           </div>
-
-
-
-
         </div>
-
       </div>
     </section><!-- #about -->
 
@@ -307,7 +301,6 @@ body {
         <header class="section-header">
           <h3 class="section-title" style="color: white;">Our Portofolio</h3>
         </header>
-
         <!-- <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
@@ -323,17 +316,7 @@ body {
 
         <div class="row portfolio-container" style="position: relative; height: 1440px;">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-appart wow fadeInUp"
-            style="position: absolute; left: 0px; top: 0px; visibility: visible; animation-name: fadeInUp;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/BOLT 2.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/BOLT 2.jpg" data-lightbox="portfolio" data-title="" class="link-preview"
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-appart wow fadeInUp" data-wow-delay="0.1s"
             style="position: absolute; left: 380px; top: 0px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
@@ -347,19 +330,7 @@ body {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-bank wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 0px; visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/BOLT.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/BOLT.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
 
-
-            </div>
-          </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-bank wow fadeInUp"
             style="position: absolute; left: 0px; top: 360px; visibility: hidden; animation-name: none;">
@@ -370,34 +341,6 @@ body {
                   data-title="" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
-
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-bank wow fadeInUp" data-wow-delay="0.1s"
-            style="position: absolute; left: 380px; top: 360px; visibility: hidden; animation-delay: 0.1s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/CHAIN BLOCK POWERTAC.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/CHAIN BLOCK POWERTAC.jpg" class="link-preview" data-lightbox="portfolio"
-                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-bank wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 360px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/CHAIN BLOCK.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/CHAIN BLOCK.jpg" class="link-preview" data-lightbox="portfolio"
-                  data-title="" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-
             </div>
           </div>
 
@@ -415,115 +358,6 @@ body {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-proton wow fadeInUp" data-wow-delay="0.1s"
-            style="position: absolute; left: 380px; top: 720px; visibility: hidden; animation-delay: 0.1s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FITTING 1.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FITTING 1.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FITTING 2.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FITTING 2.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FITTING 3.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FITTING 3.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FITTING.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FITTING.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FLANGE 1.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FLANGE 1.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FLANGE 2.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FLANGE 2.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FLANGE 3.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FLANGE 3.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FLANGE 4.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FLANGE 4.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/FLANGE 5.png" class="img-fluid" alt="">
-                <a href="./assets/portfolio/FLANGE 5.png" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
             style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
@@ -649,18 +483,6 @@ body {
             style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
             <div class="portfolio-wrap">
               <figure>
-                <img src="./assets/portfolio/NORIT.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/NORIT.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s"
-            style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-            <div class="portfolio-wrap">
-              <figure>
                 <img src="./assets/portfolio/PACKING HOSE MONDEA.jpg" class="img-fluid" alt="">
                 <a href="./assets/portfolio/PACKING HOSE MONDEA.jpg" class="link-preview" data-lightbox="portfolio"
                   data-title="" title="Preview"><i class="ion ion-eye"></i></a>
@@ -717,42 +539,6 @@ body {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name:
-                                                  none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/SAMSUL.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/SAMSUL.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name:
-                                                            none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/VALVE.webp" class="img-fluid" alt="">
-                <a href="./assets/portfolio/VALVE.webp" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rge wow fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 760px; top: 720px; visibility: hidden; animation-delay: 0.2s; animation-name:
-                                                                      none;">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="./assets/portfolio/WEIBULL.jpg" class="img-fluid" alt="">
-                <a href="./assets/portfolio/WEIBULL.jpg" class="link-preview" data-lightbox="portfolio" data-title=""
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="./#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -767,7 +553,6 @@ body {
 
         <div class="section-header">
           <h3 style="color: white;">Contact Us</h3>
-          <p style="color: white;">If you need our Service, please contact us.</p>
         </div>
 
         <div class="row contact-info">
@@ -776,7 +561,10 @@ body {
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address style="color: white;">Poris Plawad Utara, Tangerang, Banten, Indonesia</address>
+              <address style="color: white;">Sequis Center 9th Floor <br>
+                Jl Jend Sudirman No 71, Jakarta Selatan, 12190<br>
+                Indonesia <br>
+              </address>
             </div>
           </div>
 
@@ -792,7 +580,7 @@ body {
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com" style="color: white;">marketing@nusachem-energi.co.id</a></p>
+              <p><a href="mailto:info@example.com" style="color: white;">marketing@nusachem.co.id</a></p>
             </div>
           </div>
 
@@ -864,11 +652,13 @@ body {
           <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Poris Plawad Utara,<br>
-              Tangerang, Banten,<br>
+              Sequis Center 9th Floor<br>
+              Jl Jend Sudirman No 71, Jakarta Selatan, 12190<br>
               Indonesia <br>
+              <br>
               <strong>Phone:</strong> +6221 55 77 9999<br>
-              <strong>Email:</strong> marketing@nusachem-energi.co.id<br>
+              <strong>Email:</strong> marketing@nusachem.co.id<br>
+              <strong>Gmail:</strong> Sales1.nusachemenergi@gmail.com<br>
             </p>
 
             <div class="social-links">
@@ -909,35 +699,6 @@ body {
 
   <!-- Template Main Javascript File -->
   <script src="./assets/main.js"></script>
-  <nav id="mobile-nav">
-    <ul class="" style="touch-action: pan-y;" id="">
-      <li class=""><a href="./#intro">Beranda</a></li>
-      <li class="menu-active menu-item-active"><a href="./#about">Tentang Kami</a>
-      </li>
-      <li class=""><a href="./#services">Layanan</a></li>
-      <li><a href="./#contact">Hubungi Kami</a></li>
-    </ul>
-  </nav>
-  <div id="mobile-body-overly"></div>
-
-
-
-  <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
-  <div id="lightbox" class="lightbox" style="display: none;">
-    <div class="lb-outerContainer">
-      <div class="lb-container"><img class="lb-image"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-        <div class="lb-nav"><a class="lb-prev" href="./"></a><a class="lb-next" href="./"></a></div>
-        <div class="lb-loader"><a class="lb-cancel"></a></div>
-      </div>
-    </div>
-    <div class="lb-dataContainer">
-      <div class="lb-data">
-        <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
-        <div class="lb-closeContainer"><a class="lb-close"></a></div>
-      </div>
-    </div>
-  </div>
 </body>
 
 </html>
